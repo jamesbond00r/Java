@@ -1,12 +1,10 @@
 public class HelloWorld {
 
     public static void main(String[] args){
-        int numberOfDays;
-        numberOfDays = 7;
+        int myFirstNumber = 9 + 9 + 9 + 9;
+        System.out.println(myFirstNumber + myFirstNumber / myFirstNumber);
 
-        System.out.println("hello");
-        System.out.println("world");
-        System.out.println(1);
+
 
     }
 
