@@ -28,5 +28,17 @@ public class Main {
         System.out.println("long Max Value =  " + myMaxlongValue);
         System.out.println("long Min Value = " + myMinlongValue);
     long myLongValue = 100L;
+
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+        short myNewShortValue = (short) (myMinshortValue /2);
+
+        byte challengByte = 0;
+        short challengShort = 22;
+        int challengInt = 789;
+
+        int reults = (int) ( challengByte + challengShort + challengInt);
+        long challengLong = (long) (50000 + reults);
+        System.out.println(challengLong);
+
     }
 }
